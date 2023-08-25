@@ -4,8 +4,12 @@
         <!-- Customize your light theme here. -->
 <!--         <item name="colorPrimary">@color/my_light_primary</item> -->
 
-         <item name="android:statusBarColor">@color/greenDark</item>
+         <item name="android:statusBarColor">#004D40</item>
 
+    </style>
+
+    <style name="MyToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:tint">@color/white</item>
     </style>
 
     <style name="Theme.Bottom_Navigation" parent="Base.Theme.Bottom_Navigation" />
